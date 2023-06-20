@@ -1,0 +1,41 @@
+.below_header{
+    height: 56px;
+    margin-top: 0;
+    position: fixed;
+    z-index: 1;
+    top: 44px;
+    left: 85px;
+    background-color: white;
+    display: flex;
+    
+    align-items: center;
+    margin: 12px;
+    width: 100%;       
+}
+.below_header_tabs,
+.below_header_tabs_grey{
+    height: 32px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    font-family: Roboto,Arial;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    margin-right: 12px;
+    transition: 0.25s;
+    cursor: pointer;
+                
+}
+
+.below_header_tabs_grey{
+    background-color: rgb(241, 241, 241);
+    color: black;
+
+}
+
+.below_header_tabs_grey:hover{background-color: rgb(227, 227, 227);}
